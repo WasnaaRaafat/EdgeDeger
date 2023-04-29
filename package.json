@@ -1,10 +1,12 @@
 {
+  "name": "Edge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/WasnaaRaafat/EdgeDeger.git",
+  "author": "Wasnaa Raafat <wasnaaraafat@gmail.com>",
+  "license": "MIT",
   "homepage": "https://wasnaaraafat.github.io/EdgeDeger/",
   "dependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
   }
 }
