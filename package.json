@@ -1,5 +1,10 @@
 {
+  "homepage": "https://wasnaaraafat.github.io/EdgeDeger/",
   "dependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   }
 }
