@@ -1,0 +1,239 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    p{
+        font-size: 14px;
+    }
+    h4{
+        padding: 10px 0;
+    }
+    .text-primary{
+        color: #93cb52;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .main-title{
+        font-size: 3rem;
+        margin-bottom: 1.7rem;
+    }
+    .lead{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+
+    }
+    .bg-primary{
+    background-color: #93cb52;
+    color:#fff;
+    }
+    .bg-dark{
+        background: #333;
+        color: #fff;
+    }
+    .bg-light{
+        background:lightgray;
+       
+    } 
+    
+    .m-heading{
+        font-size: 2rem;
+        padding:  30px 0;
+    }
+    .s-heading{
+        font-size: 1.5rem;
+        padding: 10px 0;
+    }
+    .btn:hover{
+    
+        background: #333
+    }
+    .btn{
+        background: #93cb52;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+
+    }
+    nav{
+        background: #333 ;
+        display: flex;
+        padding: 1rem;
+        position: sticky;
+        top: 0;
+        justify-content: space-between;
+        z-index: 1;
+    }
+    nav h1{
+        color: #fff;
+    }
+
+    #navbar ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        margin : 0 0.25rem;
+        color : #fff;
+        padding: 0.75rem;
+
+
+    }
+    #navbar ul li a:hover {
+    background: greenyellow;
+    color: #333;
+    border-radius: 5px;
+    }
+    #showcase{
+        background:  url('/img/showcase.jpg') no-repeat center center/cover;
+        height: 100vh;
+    
+        color: #fff;
+    
+    }
+    #showcase .showcase-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 100%;
+        line-height: 1.7rem;
+        padding: 0px 2rem;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;  
+        background-color: rgba(0, 0,0,0.4)
+    }
+        #what-section{
+        line-height: 1.4rem;
+        padding: 2rem 0;
+        }
+
+    .container{
+    max-width: 1100px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    padding: 0 2rem;
+    
+
+    }
+
+    .container i {
+        background-color : #93cb52;
+        padding: 1rem;
+        border-radius: 30px;
+
+        
+    }
+    .box p{
+        font-size: 14px
+    }
+
+    .who-container{
+        max-width: 100%;
+        overflow: hidden;
+        margin: auto;
+        display: flex;
+      
+        height: 450px;
+        
+    
+    }
+    .box{
+    flex: 1;
+    text-align: center;
+    padding: 10px 15px;
+
+    }
+    /* section : Team */
+    .who-img {
+        flex: 1;
+
+        background: url('/img/people.jpg') no-repeat center center/cover;
+    }
+    .who-content{
+        flex: 1;
+    padding: 20px;
+
+    }
+    .who-content p{
+
+        line-height:1.5rem; 
+    }
+    .team-member{
+        border-bottom: #444 dotted 1px;
+    }
+    .container img{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-top: 1rem;
+    }
+    /* client */
+    #client h3{
+        padding: 2rem 0;
+    }
+    /* section : contact */
+    #contact{
+        display: flex;
+        margin-top: 2.5rem; 
+    }
+    .contact-us , .map {
+        padding: 2rem;
+        flex: 1;
+        
+    }
+
+    .contact-us p {
+        font-size: 1rem;
+    }
+    .contact-us label{
+        display: block;
+        padding-top:1rem; 
+        padding-bottom: 0.5rem;
+        
+    }
+    .contact-us input, textarea {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .contact-us .sub{
+        background-color: #333;
+        border-radius: 8px;
+        color: #fff;
+        border: none;
+        margin-top:1rem; 
+    padding: 10px 20px;
+    }
+    .contact-us .sub:hover{
+        background: #659c26;
+        cursor: pointer;
+        
+    }
+    .contact-container{
+        max-width: 100%;
+        padding: 2rem 0;
+
+    }
+  
+    #footer-main
+    {
+        padding: 2rem;
+    }
