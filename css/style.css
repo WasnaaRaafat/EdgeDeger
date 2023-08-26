@@ -37,7 +37,9 @@ h4 {
 .bg-light {
   background: lightgray;
 }
-
+.bg-white {
+  background: #fff;
+}
 .m-heading {
   font-size: 2rem;
   padding: 30px 0;
