@@ -88,7 +88,7 @@ nav h1 {
   border-radius: 5px;
 }
 #showcase {
-  background: url('img/showcase.jpg') no-repeat center center/cover;
+  background: no-repeat center center/cover;
   height: 100vh;
 
   color: #fff;
@@ -149,7 +149,7 @@ nav h1 {
 .who-img {
   flex: 1;
 
-  background: url('img/people.jpg') no-repeat center center/cover;
+  background: no-repeat center center/cover;
 }
 .who-content {
   flex: 1;
